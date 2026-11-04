@@ -1,5 +1,14 @@
 # desk-robot
 
+> **Pi 5 + Spark fork:** start with [our Rocky build overview](docs/rocky/README.md),
+> [hardware/interface register](docs/rocky/hardware-and-interfaces.md), and
+> [validation checklist](docs/rocky/validation.md).
+> These are planning and validation documents, not a completed Pi software port.
+> **The original ESP32 V2 instructions below are not the wiring or power guide for this Pi build.**
+> No final enclosure, full-head motion system, or complete power budget is validated by this documentation change.
+
+<a id="upstream-esp32-reference"></a>
+
 A small desk robot with a face, a voice, and a camera. Say "hey Rocky" and it
 turns its head, looks at you, and answers out loud in character. The body is
 a $24 microcontroller with an OLED screen on a pan-tilt neck. The brain is a
